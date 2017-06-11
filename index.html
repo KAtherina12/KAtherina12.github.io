@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="main text-center">
+      <div class="card">
+        
+        <!--text part-->
+        <div class="hero-text">
+      <img class="img-circle" src="http://svgshare.com/i/1uC.svg" alt="Avatar" >
+        <h1 style="font-family: 'Acme', sans-serif; text-shadow: 4px 4px 4px #aaa; padding-bottom: 25px;"><b>Sabrina Niha</b></h1>
+      </div>
+      <!--button part-->
+          <div class="button">
+          <span style="word-spacing: 20px;">
+            <a href="#about" title="About me" class="button1"><button class="btn btn-default btn-circle btn-lg">A</button></a>
+
+            <a href="#works" title="My works" class="button2"><button class="btn btn-default btn-circle btn-lg">W</button></a>
+
+            <a href="#contact" title="Contact me!" class="button3"><button class="btn btn-default btn-circle btn-lg">C</button></a>
+          </span>
+          </div>
+          
+          <!--about part-->  
+          <div id="about" class="hide">
+            <div class="box">
+              <div class="details">
+                <h3>About Me</h3>
+                <hr>
+                <p>Hi,<br>
+                My name is Sabrina Niha. I am 23 years old girl trying hard enough to learn.I am now working as a front-end developer. I also love designing in ai,photoshop,inkscape,gimp.You can get me by clicking on the <a href="#contact">C</a> button</p>
+              </div>
+            </div>
+          </div>
+
+          
+          <!--works part-->
+          <div id="works" class="hide">
+          <div class="box">
+            <h1>Works</h1>
+            <hr>
+            <p>Some of my tries are given below:</p>
+            <br>
+              <div class="row">
+                <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt="try" class="thumbnail img-responsive"></div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt=".." class="thumbnail img-responsive"></div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt="img" class="thumbnail img-responsive"></div>
+                  <br><br>
+                  <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt="try" class="thumbnail img-responsive"></div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt="try" class="thumbnail img-responsive"></div>
+                  <div class="col-lg-4 col-sm-6 col-xs-12" id="w">
+                  <img src="http://kageurufu.net/imgur/?AYwRNB5.png" alt="try" class="thumbnail img-responsive"></div>
+                </div>
+            </div>
+            </div>
+             
+
+      <!--contact part-->
+      <div id="contact" class="hide">
+        <div class="box">
+          <h1>Contact Me</h1>
+          <hr>
+          <p>To contact, click on the icons below:</p>
+          <span class="inline">
+                 <a href="http://https://www.facebook.com/nsibrina"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a> &thinsp;
+                 <a href="http://twiiter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a> &thinsp;
+                 <a href="https://github.com/KAtherina12"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a> &thinsp;
+               
+                <a href="http://https://www.linkedin.com/in/sabrina-niha-025762136?trk=nav_responsive_tab_profile"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a> &thinsp;
+             </span>
+                </div> 
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </div>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script>
+   $(document).ready(function(){
+    $(".button1").click(function(){
+        $("#about").toggleClass('hide');
+        $("#works").addClass('hide');
+        $("#contact").addClass('hide');
+    });
+
+    $(".button2").click(function(){
+        $("#works").toggleClass('hide');
+        $("#about").addClass('hide');
+        $("#contact").addClass('hide');
+    });
+
+    $(".button3").click(function(){
+        $("#contact").toggleClass('hide');
+        $("#about").addClass('hide');
+        $("#works").addClass('hide');
+    });
+    
+});
+ </script>
+</body>
+</html>

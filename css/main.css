@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  body{
+    background-image: url('http://cdn.wallpapersafari.com/55/86/uzIVCB.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    
+  }
+  .main{
+    padding-top: 8em;
+    padding-bottom: 9em;
+    padding-left: 25em;
+  }
+
+.card {
+    background: #C9D0D6;
+    box-shadow: 0 4px 8px 0 #B6F1FA;
+    transition: 0.3s;
+    width: 500px;
+    border-radius: 20px;
+    padding-top: 40px;
+    min-height: 500px;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 #3CC3C5;
+}
+
+.img-circle{
+  border-radius: 25%;
+  width: 130px;
+  margin: 20px 0px;
+  background-color: pink;
+  height: auto;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+.btn {
+  border-radius: 50%;
+  margin: 20px 0px;
+  box-shadow: 0 0 30px 0 #e3e3e3;
+  border: transparent;
+  width: 70px;
+  height: 70px;
+  transition: background 0.5s ease-in-out;
+}
+.btn:hover{
+  background: black;
+  cursor: url(); 
+  box-shadow: 0 0 20px 0 #867878;
+
+}
+
+#about, #works, #contact{
+  padding: 9%;
+}
+
+.box{
+    background-color: black;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    opacity: 3;
+}
+
+.img-responsive{
+  border-radius: 10%;
+  border: transparent;
+  margin: 20px 0px;
+  height: auto;
+}
+
+.hide {
+  display: none;
+}
