@@ -7,9 +7,10 @@
     background-image: url('http://cdn.wallpapersafari.com/55/86/uzIVCB.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-
-    
+    height: auto; 
+    cursor: url(http://kageurufu.net/imgur/?NgAXeEr.png),auto; 
   }
+
   .main{
     padding-top: 8em;
     padding-bottom: 9em;
@@ -18,7 +19,7 @@
 
 .card {
     background: #C9D0D6;
-    box-shadow: 0 4px 8px 0 #B6F1FA;
+    box-shadow: 0 4px 8px 0 #2C7782;
     transition: 0.3s;
     width: 500px;
     border-radius: 20px;
@@ -28,14 +29,14 @@
 }
 
 .card:hover {
-    box-shadow: 0 8px 16px 0 #3CC3C5;
+    box-shadow: 0 8px 16px 0 #380A08;
 }
 
 .img-circle{
   border-radius: 25%;
   width: 130px;
   margin: 20px 0px;
-  background-color: pink;
+  background-color: black;
   height: auto;
 }
 
@@ -52,11 +53,11 @@
   height: 70px;
   transition: background 0.5s ease-in-out;
 }
-.btn:hover{
-  background: black;
-  cursor: url(); 
+a .btn:hover{
+  background: black; 
   box-shadow: 0 0 20px 0 #867878;
-
+  color: #DBC9C9;
+  cursor: url(http://kageurufu.net/imgur/?NgAXeEr.png),auto;
 }
 
 #about, #works, #contact{
@@ -81,6 +82,8 @@
   height: auto;
 }
 
-.hide {
-  display: none;
-}
+.hide1,.hide2,.hide3,.hide4,.hide5 {
+      display: none;
+    }
+
+

@@ -31,7 +31,7 @@
           </div>
           
           <!--about part-->  
-          <div id="about" class="hide">
+          <div id="about" class="hide1">
             <div class="box">
               <div class="details">
                 <h3>About Me</h3>
@@ -44,7 +44,7 @@
 
           
           <!--works part-->
-          <div id="works" class="hide">
+          <div id="works" class="hide2">
           <div class="box">
             <h1>Works</h1>
             <hr>
@@ -70,7 +70,7 @@
              
 
       <!--contact part-->
-      <div id="contact" class="hide">
+      <div id="contact" class="hide3">
         <div class="box">
           <h1>Contact Me</h1>
           <hr>
@@ -90,27 +90,20 @@
     </div>
   </div>
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
  <script>
-   $(document).ready(function(){
-    $(".button1").click(function(){
-        $("#about").toggleClass('hide');
-        $("#works").addClass('hide');
-        $("#contact").addClass('hide');
+    $(document).ready(function(){
+      $(".button1").click(function(){
+        $('.hide1').toggle(500);
+        $('.hide2').hide();
+      });
+      $(".button2").click(function(){
+        $('.hide2').toggle(500);
+      });
+      $(".button3").click(function(){
+        $('.hide3').toggle(500);
+      });
     });
-
-    $(".button2").click(function(){
-        $("#works").toggleClass('hide');
-        $("#about").addClass('hide');
-        $("#contact").addClass('hide');
-    });
-
-    $(".button3").click(function(){
-        $("#contact").toggleClass('hide');
-        $("#about").addClass('hide');
-        $("#works").addClass('hide');
-    });
-    
-});
  </script>
 </body>
 </html>
